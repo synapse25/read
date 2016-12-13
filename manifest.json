@@ -21,11 +21,10 @@
                 "ReadWord.js",
                 "ReadBlock.js",
                 "Read.js",
-				"main.js"
+                "bundle.js"
             ],
             "matches": [
-                "http://*/*",
-                "https://*/*"
+                "<all_urls>"
             ]
         }
     ],
@@ -40,13 +39,14 @@
     "name": "Read",
     "offline_enabled": true,
     "permissions": [
+        "<all_urls>",	
         "contextMenus",
         "activeTab",
 		"storage"
     ],
     "short_name": "Read",
     "update_url": "https://clients2.google.com/service/update2/crx",
-    "version": "2.0.4",
+    "version": "2.0.3",
 	"web_accessible_resources": [
 		"fonts/DroidSans-webfont.eot",
 		"fonts/DroidSans-webfont.svg",

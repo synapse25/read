@@ -1,0 +1,23 @@
+{
+  "name": "read_plugin",
+  "version": "1.0.0",
+  "description": "- Derived from https://github.com/MicroDroid/read_plugin and https://github.com/ageitgey/node-unfluff to make articles readable one word at a time -",
+  "main": "main.js",
+  "dependencies": {
+    "unfluff": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knod/read_plugin.git"
+  },
+  "author": "knod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/knod/read_plugin/issues"
+  },
+  "homepage": "https://github.com/knod/read_plugin#readme"
+}
